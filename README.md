@@ -56,7 +56,7 @@ make test-all
 - Mount your code to be served with container
 
 ```shell
-docker run --name=app -v /path/to/project:/var/www/html -p 80:80 dinhquochan/laravel:php8.1
+docker run --name=app -v /path/to/project:/var/www/html -p 80:80 actcmsvn/laravel:php8.1
 ```
 
 - Using docker-compose
@@ -66,7 +66,7 @@ version: '3.4'
 
 services:
     app:
-        image: dinhquochan/laravel:php8.1
+        image: actcmsvn/laravel:php8.1
         hostname: laravel-app
         container_name: laravel-app
         ports:
@@ -97,11 +97,11 @@ networks:
 
 ### Security
 
-If you discover any security related issues, please email contact@dinhquochan.com instead of using the issue tracker.
+If you discover any security related issues, please email info@actcms.io.vn instead of using the issue tracker.
 
 ## Credits
 
-- [Dinh Quoc Han](https://github.com/dinhquochan)
+- [ACTCMS Vietnam](https://github.com/actcmsvn)
 - [All Contributors](../../contributors)
 
 ## License
